@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 class SIR:
-    def __init__(self, eons=1000, Susceptible=950, Infected=50, Resistant=0, rateSI=0.05, rateIR=0.01):
+    def __init__(self, eons=47329981, Susceptible=46918702, Infected=5498, Resistant=405781, rateSI=0.0686, rateIR=0.0714):
         self.eons = eons
         self.Susceptible = Susceptible
         self.Infected = Infected
